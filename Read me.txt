@@ -1,0 +1,28 @@
+The war file is my eclipse export of swe-645-homework1 Dynamic Project.
+index.html, styles.css, are other images and files are used for survey form.
+---------------------------------------------------------------------------------------------
+The homepage folder has homepage.html and error.html are deployed in S3 bucket.
+---------------------------------------------------------------------------------------------
+
+First I have installed Eclipse along with jdk and jre in my machine and configured tomcat 9.0 with it.
+Then I wrote index.html and styles.css in eclipse and run it in local tomcat server 
+
+Alongside, I have launched EC2 instance tomcat powered by bitnami, as mentioned in class presentations
+---------------------------------------------------------------------------------------------
+
+As a windows user I installed Winscp in my computer and connected with EC2 instance and dropped swe-645-homework1.war file in it.
+---------------------------------------------------------------------------------------------
+
+link for homepage is: http://swe--645--hw--1.s3-website-us-east-1.amazonaws.com/
+
+link for surveypage: http://ec2-54-146-71-233.compute-1.amazonaws.com/swe-645-homework1/
+
+---------------------------------------------------------------------------------------------
+
+The code for homepage.html and error.html can be found in home page folder
+
+The code for survey form can be found in swe-645-homework-1 folder or you can directly importswe-645-homework-1.war file
+---------------------------------------------------------------------------------------------
+
+***
+After opening homepage using the link provided above, please find Homework 1 under Homeworks section, when we click homework 1 it directs us to application part i.e survey page in Ec2.
